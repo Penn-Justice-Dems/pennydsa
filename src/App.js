@@ -1,28 +1,18 @@
 import React, { Component } from 'react'
-import logo from './res/images/pjd_logo.png';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import "./css/main.css";
-
+import ConstructionPage from './pages/ConstructionPage';
 
 class App extends Component {
-
-    constructor(props) {
-        super(props);
-        this.underConstruction = true;
-    }
-
     render() {
         return (
-            <div style={{textAlign: "center", margin: 50}}>
-                <div>
-                    <img src={logo} height="200"/>
-                </div>
-                <p className="title">
-                    Coming Soon
-                </p>
-            </div>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
+                <Switch>
+                    <Route path="/"><ConstructionPage /></Route>
+                </Switch>
+            </BrowserRouter>
         )
     }
-
 }
 
 export default App;

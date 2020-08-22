@@ -1,7 +1,7 @@
 {
   "name": "pjd",
   "version": "0.1.0",
-  "homepage": "http://Penn-Justice-Dems.github.io/Webpage",
+  "homepage": "https://pennjusticedems.org",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
