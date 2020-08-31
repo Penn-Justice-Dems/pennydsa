@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import './variables.scss';
+@import './header.scss';
+@import './homepage.scss';
+@import './introOverlay.scss';
+@import './news.scss';
+@import './about.scss';
+
+body {
+    background-color: $blue-medium;
+}
+
+.header_nav {
+    background-color: white;
+}
+
+.nav-link {
+    font-size: 150%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.scale_effect_20 { transition: all .1s ease-in-out; }
+.scale_effect_20:hover { transform: scale(1.2); }
+.scale_effect_50 { transition: all .1s ease-in-out; }
+.scale_effect_50:hover { transform: scale(1.5); }
+
+.bottom_margin {
+    margin-bottom: 15px;
+}
+
+.banner {
+    background-color: #dfdbd8;
+    padding: 15px;
+}
+
+.small_title {
+    font-family: 'Bebas Neue', cursive;
+    color: var(--main-blue);
+    font-size: 200%;
+}
+
+.text_container {
+    padding: 15px;
+}
+
+.pointer {
+    cursor: pointer;
+}

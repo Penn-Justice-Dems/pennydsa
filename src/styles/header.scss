@@ -1,0 +1,68 @@
+.header {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .header_title {
+        font-size: 80px;
+        font-family: 'Bebas Neue', cursive;
+        color: $white;
+    }
+
+    @media (max-width: $breakpoint-large) {
+        .header_title {
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .header_title {
+            font-size: 30px;
+        }
+    }
+
+    .logo-container {
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px;
+        margin-right: 20px;
+        .logo {
+            height: 100px;
+        }
+        @media (max-width: $breakpoint-large) {
+            .logo { height: 50px; }
+        }
+    }
+
+    .header_text {
+        display: inline-block;
+    }
+
+    .header_icon_row {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        
+        .header_icon {
+            width: 20px;
+            margin: 10px;
+            margin-top: 20px;
+            vertical-align: top;
+            float: right;
+        }
+    }
+
+    @media (max-width: $breakpoint-large) {
+        .header_icon_row { top: 40px; }
+    }
+
+    .header_navbar {
+        padding: 0 !important;
+        .header-nav-link {
+            color: $blue-darkest;
+        }
+        .header-nav-link:hover {
+            color: $accent;
+        }
+    }
+}

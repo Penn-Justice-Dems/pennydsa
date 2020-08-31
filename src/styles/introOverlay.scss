@@ -1,0 +1,17 @@
+.intro-overlay {
+    position: absolute;
+    height: 100vh;
+    // height: calc(var(--vh, 1h) * 100);
+    width: 100%;
+    z-index: 10;
+    pointer-events: none;
+    .overlay-top {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: $blue-darkest;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
