@@ -1,6 +1,7 @@
 .homepage {
     width: 100%;
     padding-top: 20px;
+    position: relative;
     .image_section {
         position: relative;
         .images {
@@ -15,6 +16,7 @@
         }
     
         .quote {
+            margin-left: 10px;
             padding: 20px;
             .line {
                 font-family: $title-font;

@@ -1,32 +1,37 @@
 [
     {
-        "name": "Emily Liu",
-        "position": "Born Leader",
-        "image": "emily.jpg"
+        "name": "Jacob Brown",
+        "position": "Internal Affairs Chair",
+        "image": "jacob.jpg"
+    },
+    {
+        "name": "Jack Cahill",
+        "position": "Communications Co-Chair",
+        "image": "Jack.jpg"
+    },
+    {
+        "name": "Amira Chowdhury",
+        "position": "Coalitions & Partnerships Chair",
+        "image": "Amira.JPG"
+    },
+    {
+        "name": "Marissa Ephron",
+        "position": "Organizing Co-Chair",
+        "image": "marissa.jpg"
+    },
+    {
+        "name": "Graham Johnson",
+        "position": "Social Chair",
+        "image": "Graham.jpg"
     },
     {
         "name": "Emily Liu",
-        "position": "Born Leader",
-        "image": "emily.jpg"
+        "position": "Organizing Co-Chair",
+        "image": "Emily.JPG"
     },
     {
-        "name": "Emily Liu",
-        "position": "Born Leader",
-        "image": "emily.jpg"
-    },
-    {
-        "name": "Emily Liu",
-        "position": "Born Leader",
-        "image": "emily.jpg"
-    },
-    {
-        "name": "Emily Liu",
-        "position": "Born Leader",
-        "image": "emily.jpg"
-    },
-    {
-        "name": "Emily Liu",
-        "position": "Born Leader",
-        "image": "emily.jpg"
+        "name": "Mayyi Mahama",
+        "position": "Communications Co-Chair",
+        "image": "mayyi.png"
     }
 ]

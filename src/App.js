@@ -6,6 +6,8 @@ import Header from './components/Header';
 import NewsPage from './pages/NewsPage';
 import IntroOverlay from './components/IntroOverlay';
 import AboutPage from './pages/AboutPage';
+import IssuesPage from './pages/IssuesPage';
+import CoalitionPage from './pages/CoalitionPage';
 
 class App extends Component {
 
@@ -17,6 +19,8 @@ class App extends Component {
                 <Switch>
                     <Route exact path="/news"> <NewsPage/> </Route>
                     <Route exact path="/about"> <AboutPage/> </Route>
+                    <Route exact path="/issues"> <IssuesPage/> </Route>
+                    <Route exact path="/coalition"> <CoalitionPage/> </Route>
                     <Route path="/"> <HomePage/> </Route>
                 </Switch>
             </BrowserRouter>

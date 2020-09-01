@@ -1,0 +1,45 @@
+.coalition-page {
+    .main {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        .title {
+            background-color: $blue-darkest;
+            padding: 20px;
+            font-size: 40px;
+            color: $white;
+            width: fit-content;
+        }
+        .coalition-summary {
+            background-color: $white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .cards {
+            text-align: center;
+            vertical-align: top;
+            .group-card {
+                text-align: left;
+                background-color: white;
+                margin: 20px;
+
+                .text {
+                    display: inline-block;
+                    padding: 10px;
+                    .title {
+                        font-size: 30px;
+                        width: 100%;
+                    }
+                    .content {
+                        font-size: 20px;
+                    }
+                }
+    
+                .background-image {
+                    width: 300px;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+}

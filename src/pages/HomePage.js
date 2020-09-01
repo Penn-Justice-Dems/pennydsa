@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
+import BlockBackground from '../components/BlockBackground';
 // import CalendarEvent from '../components/CalendarEvent';
 // import { TwitterTimelineEmbed } from 'react-twitter-embed';
 // import { loadCalendarEvents } from '../util/Common';
@@ -44,59 +45,62 @@ class HomePage extends Component {
 
     render() {
         return (
-            <div className="homepage">
-                <div className="image_section">
-                    <div className="images">
-                        <img src={images("./0.jpg")} alt="Penn Justice Dems Slideshow" />
-                    </div>
-                    <div className="quote">
-                        <h2>
-                            <div className="line">
-                                <span>A THREAT TO <b>JUSTICE</b> ANYWHERE</span>
-                            </div>
-                            <div className="line">
-                                <span>IS A THREAT TO <b>JUSTICE</b> EVERYWHERE</span>
-                            </div>
-                        </h2>
-                    </div>
-                </div>
-                <div style={{width: "100%", backgroundColor: "black", marginTop: "500px"}}>more text</div>
-                {/* <Row>
-                    <Col sm={8}>
-                        <img width="100%" src={images(`./${this.state.currentImage}.jpg`)} alt="Homepage"/>
-                    </Col>
-                    <Col>
-                        <h2>
-                            Here's our motto
-                        </h2>
-                        <hr/>
-                        <div>
-                            Check out our upcoming events!
+            <div>
+                <div className="homepage">
+                    <BlockBackground/>
+                    <div className="image_section">
+                        <div className="images">
+                            <img src={images("./0.jpg")} alt="Penn Justice Dems Slideshow" />
                         </div>
-                        <hr/>
-                        <TwitterTimelineEmbed
-                                sourceType="profile"
-                                screenName="pennjusticedems"
-                                options={{height: 600}}
-                            />
-                    </Col>
-                </Row>
-                <hr/>
-                <Row>
-                    <Col className="events_scroll">
-                        <div style={{textAlign: "center"}}>Upcoming Events</div>
-                        {
-                            this.state.events ? 
-                            this.loadEvents().reverse() :
+                        <div className="quote">
+                            <h2>
+                                <div className="line">
+                                    <span>A THREAT TO <b>JUSTICE</b> ANYWHERE</span>
+                                </div>
+                                <div className="line">
+                                    <span>IS A THREAT TO <b>JUSTICE</b> EVERYWHERE</span>
+                                </div>
+                            </h2>
+                        </div>
+                    </div>
+                    <div style={{width: "100%", backgroundColor: "black", marginTop: "500px"}}>more text</div>
+                    {/* <Row>
+                        <Col sm={8}>
+                            <img width="100%" src={images(`./${this.state.currentImage}.jpg`)} alt="Homepage"/>
+                        </Col>
+                        <Col>
+                            <h2>
+                                Here's our motto
+                            </h2>
+                            <hr/>
                             <div>
-                                <Spinner animation="border" />
+                                Check out our upcoming events!
                             </div>
-                        }
-                    </Col>
-                    <Col>
-                        
-                    </Col>
-                </Row> */}
+                            <hr/>
+                            <TwitterTimelineEmbed
+                                    sourceType="profile"
+                                    screenName="pennjusticedems"
+                                    options={{height: 600}}
+                                />
+                        </Col>
+                    </Row>
+                    <hr/>
+                    <Row>
+                        <Col className="events_scroll">
+                            <div style={{textAlign: "center"}}>Upcoming Events</div>
+                            {
+                                this.state.events ? 
+                                this.loadEvents().reverse() :
+                                <div>
+                                    <Spinner animation="border" />
+                                </div>
+                            }
+                        </Col>
+                        <Col>
+                            
+                        </Col>
+                    </Row> */}
+                </div>
             </div>
         )
     }

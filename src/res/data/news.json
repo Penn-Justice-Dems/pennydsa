@@ -1,10 +1,66 @@
 [
     {
+        "title": "How Warren and Sanders' battle for progressives is playing out on Penn's campus",
+        "image": "11.jpg",
+        "source": "The Daily Pennsylvanian",
+        "date": "December 1st 2019",
+        "link": "https://www.thedp.com/article/2019/12/bernie-sanders-elizabeth-warren-upenn-ivy-league"
+    },
+    {
+        "title": "The Pennsylvania primary is looking like a bigger deal after the meltdown in the Iowa caucuses",
+        "image": "YRQSCTBE.jpg",
+        "source": "The Philadelphia Inquirer",
+        "date": "February 5th 2020",
+        "link": "https://www.inquirer.com/politics/pennsylvania/pennsylvania-2020-primary-iowa-caucuses-20200205.html"
+    },
+    {
+        "title": "Penn for Bernie and Penn for Biden trek hundreds of miles to canvass for N.H. primary",
+        "image": "2.jpg",
+        "source": "The Daily Pennsylvanian",
+        "date": "February 10th 2020",
+        "link": "https://www.thedp.com/article/2020/02/election-new-hampshire-primaries-canvassing-campaign-sanders-biden"
+    },
+    {
+        "title": "After Super Tuesday, Penn for Biden and Penn for Bernie prepare for lengthy primary battle",
+        "image": "10.jpg",
+        "source": "The Daily Pennsylvanian",
+        "date": "March 4th 2020",
+        "link": "https://www.thedp.com/article/2020/03/sanders-biden-super-tuesday-primary-democrat-frontrunner-trump-penn"
+    },
+    {
+        "title": "Penn Democrats endorses Joe Biden despite group's split support for Bernie Sanders",
+        "image": "6.jpg",
+        "source": "The Daily Pennsylvanian",
+        "date": "March 22nd 2020",
+        "link": "https://www.thedp.com/article/2020/03/primary-biden-sanders-penn-democrats-election-trump-2020"
+    },
+    {
+        "title": "Penn Dems and Penn for Bernie urge investigation into Biden sexual assault allegation",
+        "image": "5.jpg",
+        "source": "The Daily Pennsylvanian",
+        "date": "April 1st 2020",
+        "link": "https://www.thedp.com/article/2020/04/biden-sexual-assault-penn-democrats-bernie"
+    },
+    {
         "title": "Instead of endorsing Biden, Penn for Bernie will form a new on-campus progressive coalition",
         "image": "688c6b2b.jpg",
         "source": "The Daily Pennsylvanian",
         "date": "April 13th 2020",
         "link": "https://www.thedp.com/article/2020/04/penn-for-bernie-sanders-biden-election"
+    },
+    {
+        "title": "Sanders wants Biden in the White House. Penn for Bernie does not.",
+        "image": "1.jpg",
+        "source": "The Daily Pennsylvanian",
+        "date": "April 13th 2020",
+        "link": "https://www.thedp.com/article/2020/04/biden-bernie-endorsement-election-president-trump-penn"
+    },
+    {
+        "title": "Penn for Bernie should endorse Joe Biden",
+        "image": "4.jpg",
+        "source": "The Daily Pennsylvanian",
+        "date": "April 23rd 2020",
+        "link": "https://www.thedp.com/article/2020/04/bernie-sanders-joe-biden-upenn"
     },
     {
         "title": "Penn for Bernie becomes Penn Justice Democrats, a leftist group for progressive activism",
@@ -14,31 +70,39 @@
         "link": "https://www.thedp.com/article/2020/04/bernie-penn-justice-democrats"
     },
     {
-        "title": "The Pennsylvania primary is looking like a bigger deal after the meltdown in the Iowa caucuses",
-        "image": "YRQSCTBE.jpg",
-        "source": "The Philadelphia Inquirer",
-        "date": "February 5 2020",
-        "link": "https://www.inquirer.com/politics/pennsylvania/pennsylvania-2020-primary-iowa-caucuses-20200205.html"
-    },
-    {
-        "title": "Instead of endorsing Biden, Penn for Bernie will form a new on-campus progressive coalition",
-        "image": "688c6b2b.jpg",
+        "title": "Two Penn students race for Biden, Sanders delegate slots at Democratic National Convention",
+        "image": "7.jpg",
         "source": "The Daily Pennsylvanian",
-        "date": "April 13th 2020",
-        "link": "https://www.thedp.com/article/2020/04/penn-for-bernie-sanders-biden-election"
+        "date": "May 26th 2020",
+        "link": "https://www.thedp.com/article/2020/05/pennsylvania-primary-penn-delegates-penn-dems-penn-for-bernie"
     },
     {
-        "title": "Penn for Bernie becomes Penn Justice Democrats, a leftist group for progressive activism",
-        "image": "787446d0.jpg",
+        "title": "Former Penn for Bernie members start Young Democratic Socialists of America campus chapter",
+        "image": "9.jpg",
         "source": "The Daily Pennsylvanian",
-        "date": "April 28th 2020",
-        "link": "https://www.thedp.com/article/2020/04/bernie-penn-justice-democrats"
+        "date": "June 19th 2020",
+        "link": "https://www.thedp.com/article/2020/06/penn-young-democratic-socialists-america-new-group"
     },
     {
-        "title": "The Pennsylvania primary is looking like a bigger deal after the meltdown in the Iowa caucuses",
-        "image": "YRQSCTBE.jpg",
-        "source": "The Philadelphia Inquirer",
-        "date": "February 5 2020",
-        "link": "https://www.inquirer.com/politics/pennsylvania/pennsylvania-2020-primary-iowa-caucuses-20200205.html"
+        "title": "Bernie’s student army learns to live with Biden",
+        "image": "12.jpg",
+        "source": "Politico",
+        "date": "June 28th 2020",
+        "link": "https://www.politico.com/news/2020/06/28/bernie-sanders-college-supporters-joe-biden-32835312"
+    },
+    {
+        "title": "The November election looms as COVID-19 defines 2020. Penn political groups are preparing.",
+        "image": "3.jpg",
+        "source": "The Daily Pennsylvanian",
+        "date": "July 15th 2020",
+        "link": "https://www.thedp.com/article/2020/07/penn-political-groups-democrats-republicans-election-2020-virtual-fall-planning3"
+    },
+    {
+        "title": "Penn Justice Democrats co-director will be Pa. delegate for Bernie Sanders at DNC",
+        "image": "8.jpg",
+        "source": "The Daily Pennsylvanian",
+        "date": "July 29th 2020",
+        "link": "https://www.thedp.com/article/2020/07/pennsylvania-penn-delegates-bernie-sanders"
     }
+    
 ]

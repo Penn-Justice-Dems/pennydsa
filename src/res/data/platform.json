@@ -1,0 +1,62 @@
+{
+    "national_issues": [
+        {
+            "title": "How Does Bernie Pay for His Major Plans?",
+            "summary_title": "Payment",
+            "icon": "shopping.png",
+            "subtitle": "Here's a subtitle",
+            "content": "It will cost $2.2 trillion to make public colleges, universities and trade schools tuition-free and to cancel all student debt over the next decade. It is fully paid for by a modest tax on Wall Street speculation that will raise an estimated $2.4 trillion over ten years. Click here to read the plan."
+        },
+        {
+            "title": "Priorities for the Next Coronavirus Relief Package",
+            "summary_title": "Relief Packages",
+            "icon": "shopping.png",
+            "subtitle": "Here's a subtitle",
+            "content": "Our country is now facing its worst crisis in modern history. We are in the midst of a COVID-19 pandemic that could lead to the deaths of hundreds of thousands of Americans and infect millions of others, and we are entering an economic downturn that could be worse than the Great Depression of the 1930s."
+        },
+        {
+            "title": "An Emergency Response to the Coronavirus Pandemic",
+            "summary_title": "Coronavirus",
+            "icon": "shopping.png",
+            "subtitle": "Here's a subtitle",
+            "content": "In terms of potential deaths and the impact on our economy, the crisis we face from coronavirus is on the scale of a major war, and we must act accordingly. We must begin thinking on a scale comparable to the threat, and make sure that we are protecting working people, low-income people, and the most vulnerable communities, not just giant corporations and Wall Street."
+        },
+        {
+            "title": "How Does Bernie Pay for His Major Plans?",
+            "summary_title": "Payment2",
+            "icon": "shopping.png",
+            "subtitle": "Here's a subtitle",
+            "content": "It will cost $2.2 trillion to make public colleges, universities and trade schools tuition-free and to cancel all student debt over the next decade. It is fully paid for by a modest tax on Wall Street speculation that will raise an estimated $2.4 trillion over ten years. Click here to read the plan."
+        },
+        {
+            "title": "Priorities for the Next Coronavirus Relief Package",
+            "summary_title": "COVID 19",
+            "icon": "shopping.png",
+            "subtitle": "Here's a subtitle",
+            "content": "Our country is now facing its worst crisis in modern history. We are in the midst of a COVID-19 pandemic that could lead to the deaths of hundreds of thousands of Americans and infect millions of others, and we are entering an economic downturn that could be worse than the Great Depression of the 1930s."
+        },
+        {
+            "title": "An Emergency Response to the Coronavirus Pandemic",
+            "summary_title": "Pandemics",
+            "icon": "shopping.png",
+            "subtitle": "Here's a subtitle",
+            "content": "In terms of potential deaths and the impact on our economy, the crisis we face from coronavirus is on the scale of a major war, and we must act accordingly. We must begin thinking on a scale comparable to the threat, and make sure that we are protecting working people, low-income people, and the most vulnerable communities, not just giant corporations and Wall Street."
+        }
+    ],
+    "penn_issues": [
+        {
+            "title": "asdfae",
+            "summary_title": "asdasd",
+            "icon": "shopping.png",
+            "subtitle": "Here's a subtitle",
+            "content": "Our country is now facing its worst crisis in modern history. We are in the midst of a COVID-19 pandemic that could lead to the deaths of hundreds of thousands of Americans and infect millions of others, and we are entering an economic downturn that could be worse than the Great Depression of the 1930s."
+        },
+        {
+            "title": "Anfsdsadfsda",
+            "summary_title": "34j30",
+            "icon": "shopping.png",
+            "subtitle": "Here's a subtitle",
+            "content": "In terms of potential deaths and the impact on our economy, the crisis we face from coronavirus is on the scale of a major war, and we must act accordingly. We must begin thinking on a scale comparable to the threat, and make sure that we are protecting working people, low-income people, and the most vulnerable communities, not just giant corporations and Wall Street."
+        }
+    ]
+}

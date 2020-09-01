@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import newsItems from '../res/data/news.json';
 import NewsItem from '../components/NewsItem';
+import BlockBackground from '../components/BlockBackground';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,6 +26,7 @@ const NewsPage = () => {
 
     return (
         <div className="news-page">
+            <BlockBackground/>
             <div className="title-container">
                 <h2 className="title">
                     Penn Justice Dems <b>In The News</b>
@@ -33,7 +35,7 @@ const NewsPage = () => {
             <div>
                 {
                     newsItems.map((item, index) => {
-                        return <div id={`news-item-${index}`}> <NewsItem item={item}/> </div>
+                        return <div id={`news-item-${index}`} key={index}> <NewsItem item={item}/> </div>
                     })
                 }
             </div>

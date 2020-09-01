@@ -5,6 +5,13 @@
 @import './introOverlay.scss';
 @import './news.scss';
 @import './about.scss';
+@import './blockBackground.scss';
+@import './issues.scss';
+@import './coalition.scss';
+
+* {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: $blue-medium;
