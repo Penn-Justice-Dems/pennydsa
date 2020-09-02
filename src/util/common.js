@@ -5,7 +5,6 @@ const formNameKey = "entry.795803210";
 const formMessageKey = "entry.792572781";
 const formEmailKey = "entry.2089231029";
 const formURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSc5j0EQV_DcXf4yoGWCcBdY9rZjK9t02hl8m5QPimryDIdC9g/formResponse";
-const corsEscape = "https://cors-escape.herokuapp.com/";
 
 export const loadCalendarEvents = async () => {
     const params = {

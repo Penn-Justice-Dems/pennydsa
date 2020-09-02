@@ -7,7 +7,6 @@ import NewsPage from './pages/NewsPage';
 import IntroOverlay from './components/IntroOverlay';
 import AboutPage from './pages/AboutPage';
 import IssuesPage from './pages/IssuesPage';
-import CoalitionPage from './pages/CoalitionPage';
 import JoinPage from './pages/JoinPage';
 import GalleryPage from './pages/GalleryPage';
 import ContactPage from './pages/ContactPage';
@@ -27,7 +26,6 @@ class App extends Component {
                         <Route exact path="/news"> <NewsPage/> </Route>
                         <Route exact path="/about"> <AboutPage/> </Route>
                         <Route exact path="/issues"> <IssuesPage/> </Route>
-                        <Route exact path="/coalition"> <CoalitionPage/> </Route>
                         <Route exact path="/join"> <JoinPage/> </Route>
                         <Route exact path="/gallery"> <GalleryPage/> </Route>
                         <Route exact path="/contact"> <ContactPage/> </Route>

@@ -7,11 +7,15 @@ class IssueCard extends Component {
         return (
             <div className="issue-card">
                 <div className="icon">
-                    <img src={images(`./${issue.icon}`)}/>
+                    <img src={images(`./${issue.icon}`)} alt="PJD Issue Icon"/>
                 </div>
                 <div className="text">
                     <h1>{ issue.title }</h1>
-                    <p> { issue.content } </p>
+                    <ul>
+                        {
+                            issue.content.map(p => <li><p>{ p }</p></li>)
+                        }
+                    </ul>
                 </div>
             </div>
         )

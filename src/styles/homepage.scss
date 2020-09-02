@@ -62,7 +62,7 @@
     .summaries {
         padding: 20px;
         margin: auto;
-        margin-top: 15%;
+        margin-top: 7%;
         width: 70%;
         z-index: 5;
         position: relative;
@@ -88,7 +88,6 @@
         .news {
             margin-top: 20px;
             margin-bottom: 20px;
-            text-align: end;
             width: 100%;
 
             .news-title { display: block; }
@@ -107,6 +106,7 @@
                 white-space: nowrap;
 
                 .news-item {
+                    position: relative;
                     white-space: normal;
                     text-align: start;
                     display: inline-block;
@@ -179,7 +179,6 @@
         }
 
         .platform {
-            text-align: end;
             .platform-title {
                 display: block;
             }
@@ -208,25 +207,32 @@
             }
         }
 
-        .twitter {
-            margin: auto;
-            margin-top: 30px;
-            width: 40%;
-            max-width: 500px;
-            min-width: 350px;
+        .social-media {
+            margin-top: 40px;
+            .embeds {
+                text-align: center;
+                margin: auto;
+                margin-top: 20px;
+                width: 80%;
+            }
         }
 
     }
 
     @media (max-width: $breakpoint-large) {
-        .summaries { margin-top: 20%; width: 100%; }
+        .summaries {
+            margin-top: 1%;
+            width: 100%;
+        }
     }
 
     @media (max-width: $breakpoint-small) {
         .summaries { margin-top: 5%; }
+        .social-media .embeds { width: 100%; }
     }
 
     .join-button {
+        box-shadow: 10px;
         cursor: pointer;
         font-family: $title-font;
         font-size: 40px;
@@ -239,6 +245,7 @@
         text-align: center;
         z-index: 9;
         position: relative;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     a {
@@ -254,8 +261,11 @@
     }
 
     .upcoming-event {
+        z-index: 9;
+        position: relative;
         margin: 20px;
         margin-left: 60px;
+        margin-top: 5%;
         padding: 10px;
         background-color: $white;
         width: fit-content;
@@ -268,7 +278,7 @@
             font-size: 40px;
             line-height: 40px;
             color: $black;
-            background-color: $accent;
+            background-color: $blue-light;
             padding: 20px;
             text-align: center;
             z-index: 9;

@@ -58,6 +58,9 @@
                         .text {
                             width: 90%;
                             display: inline-block;
+                            ul {
+                                list-style-type: square;
+                            }
                             h1 {
                                 font-size: 20px;
                             }

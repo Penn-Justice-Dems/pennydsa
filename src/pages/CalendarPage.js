@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import BlockBackground from '../components/BlockBackground';
 import { loadCalendarEvents } from '../util/common';
@@ -40,7 +40,6 @@ class CalendarPage extends Component {
         if (!event) return null;
         let startDate = new Date(event.start);
         let endDate = new Date(event.end);
-        let endSameAsStart = startDate.toISOString() == endDate.toISOString();
         let start = `${startDate.toLocaleTimeString()} on ${startDate.toLocaleDateString()}`;
         let end = `${endDate.toLocaleTimeString()} on ${endDate.toLocaleDateString()}`;
         return (
@@ -60,9 +59,7 @@ class CalendarPage extends Component {
                     <hr/>
                     <p> <b>Location:</b> { event.location } </p>
                     <p> Starts at { start } </p>
-                    {
-                        (!endSameAsStart) && (<p> Ends at { end } </p>)
-                    }
+                    <p> Ends at { end } </p>
                 </Modal.Body>
             </Modal>
         );

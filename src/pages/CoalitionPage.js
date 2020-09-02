@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import gsap from 'gsap';
 import { Row, Col } from 'react-bootstrap';
 import BlockBackground from '../components/BlockBackground'
 import groups from '../res/data/coalition.json';
@@ -11,6 +12,19 @@ class CoalitionPage extends Component {
             return (
                 <CoalitionCard group={group} key={i}/>
             )
+        });
+    }
+
+    componentDidMount = () => {
+        gsap.from(".group-card", {
+            duration: 0.5,
+            opacity: 0,
+            x: -150,
+            stagger: { amount: 0.5 },
+            scrollTrigger: {
+                trigger: ".group-card",
+                toggleActions: "restart reset restart reset"
+            }
         });
     }
 

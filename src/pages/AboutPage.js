@@ -33,13 +33,15 @@ class AboutPage extends Component {
                                 Mission
                             </div>
                             <p className="mission-text">
-                                New York State Route 175 (NY 175) is an east–west state highway in Onondaga County, New York, in the United States. The 15.46-mile (24.88 km) route begins at an intersection with U.S. Route 20 (US 20) east of the village of Skaneateles and passes through the village of Marcellus before ending at a junction with US 11 in Syracuse. The highway was designated in the 1930 renumbering of state highways in New York.
+                                We offer left wing progressives a place on Penn’s campus to engage in both electoral and non-electoral organizing, outreach and activism -- divorced from the primary pursuit of corporate pre-professionalism. 
                             </p>
                             <div className="title">
                                 About Us
                             </div>
                             <p className="mission-text">
-                                New York State Route 175 (NY 175) is an east–west state highway in Onondaga County, New York, in the United States. The 15.46-mile (24.88 km) route begins at an intersection with U.S. Route 20 (US 20) east of the village of Skaneateles and passes through the village of Marcellus before ending at a junction with US 11 in Syracuse. The highway was designated in the 1930 renumbering of state highways in New York.
+                                Formerly known as Penn Students for Bernie, Penn Justice Democrats serves as an independent progressive student group with the mission of electing left-wing candidates at the local, state, and national level, as well as serving to promote progressive causes on campus and in Philadelphia. We were inspired by the <a href="https://justicedemocrats.com/" target="_blank" rel="noopener noreferrer">National Justice Democrats</a> organization in their extraordinary success at recruiting the leaders of the next generation of politics--leaders like Alexandria Ocasio-Cortez and Jamaal Bowman, and leaders who are committed to a platform of Medicare for All, Housing for All, College for All, and Justice for All.
+                                <br/> <br/>
+                                Possible activities this semester include: phonebanking, bi-monthly meetings, debate watch parties, panel events with notable activists and political leaders, movie nights, happy hours, and more. Under normal circumstances, our events would also potentially include campaign canvassing (including traveling to different states!), large scale protests, and BYO's, among other projects and activities. 
                             </p>
                         </Col>
                         <Col>

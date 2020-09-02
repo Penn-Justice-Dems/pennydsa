@@ -7,10 +7,6 @@ import IssueCard from '../components/IssueCard';
 
 class IssuesPage extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     makeIssueCards(category) {
         return platform[category].map((issue, i) => {
             const id = `issue-item-${category}-${i}`;
@@ -57,18 +53,14 @@ class IssuesPage extends Component {
         const pennIssueCards = this.makeIssueCards("penn_issues");
         const nationalIssueSummaries = this.makeIssueSummaries("national_issues");
         const pennIssueSummaries = this.makeIssueSummaries("penn_issues");
-        console.log(this.issueRefs);
 
         return (
             <div className="issues-page">
                 <BlockBackground/>
                 <div className="main">
                     <h1 className="title">
-                        Policies you can believe in, Read our platform
+                        Policies You Can Believe In; Read Our Platform
                     </h1>
-                    {/* <h1 className="title">
-                        Read about our platform
-                    </h1> */}
                     <Row className="content">
                         <Col sm={3} className="sidebar">
                             <h1>Overview</h1>

@@ -44,11 +44,7 @@
                 .header-nav-link {
                     display: inline-block !important;
                     color: $blue-darkest;
-                }
-                @media (max-width: $breakpoint-large) {
-                    .header-nav-link {
-                        margin-left: 10px;;
-                    }
+                    margin-left: 10px;
                 }
                 .header-nav-link:hover {
                     color: $accent;

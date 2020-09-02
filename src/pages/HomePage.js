@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 import gsap from 'gsap';
 import CrossfadeImage from 'react-crossfade-image';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import InstagramEmbed from 'react-instagram-embed';
 import 'react-calendar/dist/Calendar.css';
 import BlockBackground from '../components/BlockBackground';
 import { loadCalendarEvents } from '../util/common';
 import newsItems from '../res/data/news.json';
 import NewsItem from '../components/NewsItem';
-import { Spinner } from 'react-bootstrap';
+import { Spinner, Row, Col } from 'react-bootstrap';
 const images = require.context("../res/images/general/");
 const imageCount = 7;
 const msPerImage = 3000;
@@ -25,7 +26,7 @@ class HomePage extends Component {
     componentDidMount = () => {
         this.loadNextEvent();
         setTimeout(this.nextImage, msPerImage);
-        [".news-title", ".platform-title", ".upcoming-event"].forEach(className => {
+        [".news-title", ".platform-title", ".upcoming-event", ".social-media-title"].forEach(className => {
             gsap.from(className, {
                 duration: 0.5,
                 opacity: 0,
@@ -100,7 +101,7 @@ class HomePage extends Component {
                         <div className="news">
                             <a href="/news" className="news-title">
                                 <h1>
-                                    View All News
+                                    In The News
                                 </h1>
                             </a>
                             <div className="news-items">
@@ -113,12 +114,7 @@ class HomePage extends Component {
                         <div className="platform">
                             <a href="/issues" className="platform-title">
                                 <h1>
-                                    A Platform For <b>Justice</b>?
-                                </h1>
-                            </a>
-                            <a href="/issues" className="platform-title">
-                                <h1>
-                                    Read More
+                                    Read Our Platform
                                 </h1>
                             </a>
                             <div className="issue-items">
@@ -126,7 +122,7 @@ class HomePage extends Component {
                                     ["Green New Deal", "PILOTs", "Guaranteed Health Care", "Housing For All", "Criminal Justice", "Defunding Philadelphia Police"]
                                     .map(title => {
                                         return (
-                                            <a href="/issues">
+                                            <a href="/issues" key={title}>
                                                 <h3 className="issue-title">{title}</h3>
                                             </a>
                                             
@@ -135,11 +131,32 @@ class HomePage extends Component {
                                 }
                             </div>
                         </div>
-                        <div className="twitter">
-                            <TwitterTimelineEmbed
-                                sourceType="profile"
-                                screenName="pennjusticedems"
-                                options={{height: 600}}/>
+                        <div className="social-media">
+                            <h1 className="social-media-title">
+                                Social Media
+                            </h1>
+                            <Row className="embeds">
+                                <Col lg={6}>
+                                    <TwitterTimelineEmbed
+                                        sourceType="profile"
+                                        screenName="pennjusticedems"
+                                        options={{height: 800}}/>
+                                </Col>
+                                <Col lg={6} className="instagram">
+                                    <InstagramEmbed
+                                        url="https://www.instagram.com/p/B-uiWbcgTzN"
+                                        hideCaption={false}
+                                        containerTagName='div'
+                                        protocol=''
+                                        injectScript
+                                        onLoading={() => {}}
+                                        onSuccess={() => {}}
+                                        onAfterRender={() => {}}
+                                        onFailure={() => {}}
+                                        />
+                                </Col>
+                            </Row>
+                            
                         </div>
                     </div>
                 </div>
@@ -149,44 +166,3 @@ class HomePage extends Component {
 }
 
 export default HomePage;
-
-/*
-
-                    <Row>
-                        <Col sm={8}>
-                            <img width="100%" src={images(`./${this.state.currentImage}.jpg`)} alt="Homepage"/>
-                        </Col>
-                        <Col>
-                            <h2>
-                                Here's our motto
-                            </h2>
-                            <hr/>
-                            <div>
-                                Check out our upcoming events!
-                            </div>
-                            <hr/>
-                            <TwitterTimelineEmbed
-                                    sourceType="profile"
-                                    screenName="pennjusticedems"
-                                    options={{height: 600}}
-                                />
-                        </Col>
-                    </Row>
-                    <hr/>
-                    <Row>
-                        <Col className="events_scroll">
-                            <div style={{textAlign: "center"}}>Upcoming Events</div>
-                            {
-                                this.state.events ? 
-                                this.loadEvents().reverse() :
-                                <div>
-                                    <Spinner animation="border" />
-                                </div>
-                            }
-                        </Col>
-                        <Col>
-                            
-                        </Col>
-                    </Row>
-
-*/
