@@ -64,11 +64,11 @@ class IssuesPage extends Component {
                 <BlockBackground/>
                 <div className="main">
                     <h1 className="title">
-                        Policies you can believe in
+                        Policies you can believe in, Read our platform
                     </h1>
-                    <h1 className="title">
+                    {/* <h1 className="title">
                         Read about our platform
-                    </h1>
+                    </h1> */}
                     <Row className="content">
                         <Col sm={3} className="sidebar">
                             <h1>Overview</h1>

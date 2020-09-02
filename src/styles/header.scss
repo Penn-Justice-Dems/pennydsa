@@ -8,14 +8,88 @@
         z-index: -1;
     }
     .main {
-        padding-top: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 20px;
+        .navbar {
+            padding: 0px;
+            .nav-logo {
+                height: 100px;
+                margin-right: 20px;
+            }
+            @media (max-width: $breakpoint-large) {
+                .nav-logo { height: 50px; }
+            }
+            @media (max-width: $breakpoint-medium) {
+                .nav-logo { height: 30px; margin-right: 5px; }
+            }
+
+            // Collapse button
+            .navbar-toggler {
+                border: none !important;
+                padding: 0px;
+                .down-arrow-icon {
+                    width: 40px;
+                }
+                @media (max-width: $breakpoint-large) {
+                    .down-arrow-icon {
+                        width: 30px;
+                    }  
+                }
+            }
+
+            .navbar-toggler:focus {
+                outline: none;
+            }
+
+            .navbar-collapse {
+                .header-nav-link {
+                    display: inline-block !important;
+                    color: $blue-darkest;
+                }
+                @media (max-width: $breakpoint-large) {
+                    .header-nav-link {
+                        margin-left: 10px;;
+                    }
+                }
+                .header-nav-link:hover {
+                    color: $accent;
+                    margin: 0px;
+                }
+                .icons-nav {
+                    display: block;
+                    .header_icon_row {
+                        width: 100%;
+                        .header_icon {
+                            width: 20px;
+                            margin: 10px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+                .header_icon_row {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    text-align: end;
+                    display: block !important;
+                    clear: both;
+                    
+                    .header_icon {
+                        width: 20px;
+                        margin: 10px;
+                        margin-top: 20px;
+                    }
+                }
+                @media (max-width: $breakpoint-large) {
+                    .header_icon_row { text-align: start; }
+                }
+            }
+            
+        }
 
         .header_title {
             font-size: 80px;
             font-family: 'Bebas Neue', cursive;
             color: $white;
+            display: inline-block;
         }
 
         @media (max-width: $breakpoint-large) {
@@ -30,49 +104,11 @@
             }
         }
 
-        .logo-container {
-            display: inline-block;
-            vertical-align: top;
-            margin: 10px;
-            margin-right: 20px;
-            .logo {
-                height: 100px;
-            }
-            @media (max-width: $breakpoint-large) {
-                .logo { height: 50px; }
-            }
-        }
-
         .header_text {
             display: inline-block;
         }
 
-        .header_icon_row {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            
-            .header_icon {
-                width: 20px;
-                margin: 10px;
-                margin-top: 20px;
-                vertical-align: top;
-                float: right;
-            }
-        }
+        
 
-        @media (max-width: $breakpoint-large) {
-            .header_icon_row { top: 40px; }
-        }
-
-        .header_navbar {
-            padding: 0 !important;
-            .header-nav-link {
-                color: $blue-darkest;
-            }
-            .header-nav-link:hover {
-                color: $accent;
-            }
-        }
     }   
 }
