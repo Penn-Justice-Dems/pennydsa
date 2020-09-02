@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Modal, Button } from 'react-bootstrap';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
+import BlockBackground from '../components/BlockBackground';
 import { loadCalendarEvents } from '../util/common';
 import moment from 'moment';
-import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 const localizer = momentLocalizer(moment);
 
@@ -11,7 +12,9 @@ class CalendarPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            events: []
+            events: [],
+            showPopup: true,
+            selectedEvent: null
         };
     }
 
@@ -25,17 +28,62 @@ class CalendarPage extends Component {
         this.setState({ events });
     }
 
+    onSelectEvent = (event) => {
+        this.setState({
+            showPopup: true,
+            selectedEvent: event
+        });
+    }
+
+    renderPopup() {
+        let event = this.state.selectedEvent;
+        if (!event) return null;
+        let startDate = new Date(event.start);
+        let endDate = new Date(event.end);
+        let endSameAsStart = startDate.toISOString() == endDate.toISOString();
+        let start = `${startDate.toLocaleTimeString()} on ${startDate.toLocaleDateString()}`;
+        let end = `${endDate.toLocaleTimeString()} on ${endDate.toLocaleDateString()}`;
+        return (
+            <Modal
+                size="lg"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+                show={this.state.showPopup}
+                onHide={() => this.setState({ showPopup: false })}>
+                <Modal.Header closeButton>
+                    <Modal.Title id="contained-modal-title-vcenter">
+                        { event.title }
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <p> { event.description } </p>
+                    <hr/>
+                    <p> <b>Location:</b> { event.location } </p>
+                    <p> Starts at { start } </p>
+                    {
+                        (!endSameAsStart) && (<p> Ends at { end } </p>)
+                    }
+                </Modal.Body>
+            </Modal>
+        );
+    }
+
     render() {
         return (
-            <div style={{width: "50%", margin: "auto", height: 700}}>
-                <Calendar
-                    localizer={localizer}
-                    events={this.state.events}
-                    startAccessor="start"
-                    endAccessor="end"
-                    views={["month"]}
-                />
-            </div>
+            <>
+                <BlockBackground/>
+                <div className="calendar-main">
+                    <Calendar
+                        localizer={localizer}
+                        events={this.state.events}
+                        startAccessor="start"
+                        endAccessor="end"
+                        views={["month"]}
+                        onSelectEvent={this.onSelectEvent}
+                    />
+                </div>
+                { this.renderPopup() }
+            </>
         )
     }
 }

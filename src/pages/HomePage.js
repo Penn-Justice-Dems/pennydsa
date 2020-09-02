@@ -1,15 +1,13 @@
 import React, { Component } from 'react'
-// import Calendar from 'react-calendar'
+import gsap from 'gsap';
 import CrossfadeImage from 'react-crossfade-image';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import 'react-calendar/dist/Calendar.css';
 import BlockBackground from '../components/BlockBackground';
+import { loadCalendarEvents } from '../util/common';
 import newsItems from '../res/data/news.json';
 import NewsItem from '../components/NewsItem';
-// import CalendarEvent from '../components/CalendarEvent';
-// import { TwitterTimelineEmbed } from 'react-twitter-embed';
-// import { loadCalendarEvents } from '../util/Common';
-// import newsItems from '../res/data/news.json';
+import { Spinner } from 'react-bootstrap';
 const images = require.context("../res/images/general/");
 const imageCount = 7;
 const msPerImage = 3000;
@@ -19,21 +17,32 @@ class HomePage extends Component {
     constructor() {
         super();
         this.state = {
-            events: null,
+            event: null,
             currentImage: 0
         };
     }
 
     componentDidMount = () => {
-        // this.loadCalendar();
+        this.loadNextEvent();
         setTimeout(this.nextImage, msPerImage);
-        
+        [".news-title", ".platform-title", ".upcoming-event"].forEach(className => {
+            gsap.from(className, {
+                duration: 0.5,
+                opacity: 0,
+                x: -150,
+                stagger: { amount: 0.5 },
+                scrollTrigger: {
+                    trigger: className,
+                    toggleActions: "restart reset restart reset"
+                }
+            });
+        });
     }
 
-    // async loadCalendar() {
-    //     const events = await loadCalendarEvents();
-    //     this.setState({ events });
-    // }
+    async loadNextEvent() {
+        const events = await loadCalendarEvents();
+        this.setState({ event: events[0] });
+    }
 
     nextImage = () => {
         this.setState({
@@ -41,13 +50,6 @@ class HomePage extends Component {
         }, () => {
             setTimeout(this.nextImage, msPerImage);
         });
-    }
-
-    loadEvents() {
-        // return this.state.events.map(event => {
-        //     console.log(event)
-        //     return <CalendarEvent calendarEvent={event}/>
-        // });
     }
 
     render() {
@@ -77,9 +79,26 @@ class HomePage extends Component {
                             Join Us Today!
                         </h1>
                     </a>
+                    <a href="/calendar">
+                        <div className="upcoming-event">
+                            <h1 className="upcoming-event-title">
+                                Our Next Upcoming Event
+                            </h1>
+                            <h1 className="event-title">
+                                { this.state.event ? this.state.event.title : <Spinner animation="grow" variant="primary"/> }
+                            </h1>
+                            <h2 className="event-date">
+                                { this.state.event ?
+                                    new Date(this.state.event.start).toLocaleDateString() + ", " +
+                                    new Date(this.state.event.start).toLocaleTimeString() :
+                                    null
+                                }
+                            </h2>
+                        </div>
+                    </a>
                     <div className="summaries">
                         <div className="news">
-                            <a href="/news">
+                            <a href="/news" className="news-title">
                                 <h1>
                                     View All News
                                 </h1>
@@ -92,9 +111,14 @@ class HomePage extends Component {
                             </div>
                         </div>
                         <div className="platform">
-                            <a href="/issues">
+                            <a href="/issues" className="platform-title">
                                 <h1>
-                                    Read More About Our Platform
+                                    A Platform For <b>Justice</b>?
+                                </h1>
+                            </a>
+                            <a href="/issues" className="platform-title">
+                                <h1>
+                                    Read More
                                 </h1>
                             </a>
                             <div className="issue-items">

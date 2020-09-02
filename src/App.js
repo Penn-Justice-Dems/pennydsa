@@ -16,22 +16,26 @@ import CalendarPage from './pages/CalendarPage';
 class App extends Component {
 
     render() {
+        
         return (
-            <BrowserRouter>
-                <Switch><Route exact path="/"><IntroOverlay/></Route></Switch>
-                <Header/>
-                <Switch>
-                    <Route exact path="/news"> <NewsPage/> </Route>
-                    <Route exact path="/about"> <AboutPage/> </Route>
-                    <Route exact path="/issues"> <IssuesPage/> </Route>
-                    <Route exact path="/coalition"> <CoalitionPage/> </Route>
-                    <Route exact path="/join"> <JoinPage/> </Route>
-                    <Route exact path="/gallery"> <GalleryPage/> </Route>
-                    <Route exact path="/contact"> <ContactPage/> </Route>
-                    <Route exact path="/calendar"> <CalendarPage/> </Route>
-                    <Route path="/"> <HomePage/> </Route>
-                </Switch>
-            </BrowserRouter>
+            <>
+                <div id="page-top"></div>
+                <BrowserRouter>
+                    <Switch><Route exact path="/"><IntroOverlay/></Route></Switch>
+                    <Header/>
+                    <Switch>
+                        <Route exact path="/news"> <NewsPage/> </Route>
+                        <Route exact path="/about"> <AboutPage/> </Route>
+                        <Route exact path="/issues"> <IssuesPage/> </Route>
+                        <Route exact path="/coalition"> <CoalitionPage/> </Route>
+                        <Route exact path="/join"> <JoinPage/> </Route>
+                        <Route exact path="/gallery"> <GalleryPage/> </Route>
+                        <Route exact path="/contact"> <ContactPage/> </Route>
+                        <Route exact path="/calendar"> <CalendarPage/> </Route>
+                        <Route path="/"> <HomePage/> </Route>
+                    </Switch>
+                </BrowserRouter>
+            </>
         )
     }
 }

@@ -8,7 +8,9 @@
 @import './blockBackground.scss';
 @import './issues.scss';
 @import './coalition.scss';
+@import './calendar.scss';
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import 'react-big-calendar/lib/sass/styles';
 
 * {
     scroll-behavior: smooth;
