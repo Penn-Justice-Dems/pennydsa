@@ -4,6 +4,7 @@ import { Calendar, momentLocalizer } from 'react-big-calendar';
 import BlockBackground from '../components/BlockBackground';
 import { loadCalendarEvents } from '../util/common';
 import moment from 'moment';
+import parse from 'html-react-parser';
 
 const localizer = momentLocalizer(moment);
 
@@ -42,6 +43,7 @@ class CalendarPage extends Component {
         let endDate = new Date(event.end);
         let start = `${startDate.toLocaleTimeString()} on ${startDate.toLocaleDateString()}`;
         let end = `${endDate.toLocaleTimeString()} on ${endDate.toLocaleDateString()}`;
+        let description = parse(event.description);
         return (
             <Modal
                 size="lg"
@@ -55,7 +57,7 @@ class CalendarPage extends Component {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <p> { event.description } </p>
+                    <p> { description } </p>
                     <hr/>
                     <p> <b>Location:</b> { event.location } </p>
                     <p> Starts at { start } </p>
