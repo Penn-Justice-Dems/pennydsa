@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "119c31c77191697f932e74eb3f37f335",
+    "revision": "d088c2d2b2a65b69c81bd07a5beb4eb0",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.5036aa7d.chunk.css"
   },
   {
-    "revision": "e6151afda15fa20acd1d",
-    "url": "/static/css/main.2c59018e.chunk.css"
+    "revision": "744feaaa91e12b8db30d",
+    "url": "/static/css/main.39d5841d.chunk.css"
   },
   {
     "revision": "a853563c58066c792b19",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9efa926d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e6151afda15fa20acd1d",
+    "revision": "744feaaa91e12b8db30d",
     "url": "/static/js/main.263cd3c3.chunk.js"
   },
   {
@@ -186,6 +186,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e32f2d175556d9fcd5c97d5b3650e753",
     "url": "/static/media/Amira.e32f2d17.JPG"
+  },
+  {
+    "revision": "21bb70b62317f276f2e97a919ff5bd8c",
+    "url": "/static/media/BebasNeue-Regular.21bb70b6.ttf"
   },
   {
     "revision": "29086115102b354cab18c654034713bf",
