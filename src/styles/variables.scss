@@ -11,7 +11,14 @@ $background-blue-1: #2f78a8;
 $background-blue-2: #2c72a1;
 
 // Fonts
-$title-font: 'Bebas Neue', cursive;
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../res/fonts/BebasNeue-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+$title-font: 'Bebas Neue', sans-serif;
 
 // Breakpoints
 $breakpoint-huge: 1425px;
