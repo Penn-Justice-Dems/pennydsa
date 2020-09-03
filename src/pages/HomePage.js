@@ -75,12 +75,13 @@ class HomePage extends Component {
                             </h2>
                         </div>
                     </div>
-                    <a href="/join">
+                    <a href="/join" className="join-link">
                         <h1 className="join-button">
                             Join Us Today!
                         </h1>
                     </a>
-                    <a href="/calendar">
+                    <br/>
+                    <a href="/calendar" className="upcoming-event-link">
                         <div className="upcoming-event">
                             <h1 className="upcoming-event-title">
                                 Our Next Upcoming Event
@@ -97,6 +98,7 @@ class HomePage extends Component {
                             </h2>
                         </div>
                     </a>
+                    
                     <div className="summaries">
                         <div className="news">
                             <a href="/news" className="news-title">

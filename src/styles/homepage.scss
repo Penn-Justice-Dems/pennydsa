@@ -231,70 +231,76 @@
         .social-media .embeds { width: 100%; }
     }
 
-    .join-button {
-        box-shadow: 10px;
-        cursor: pointer;
-        font-family: $title-font;
-        font-size: 40px;
-        line-height: 40px;
+    .join-link {
+        display: inline-block;
         margin-left: 30px;
-        color: $black;
-        width: fit-content;
-        background-color: $accent;
-        padding: 20px;
-        text-align: center;
-        z-index: 9;
-        position: relative;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
 
-    a {
-        text-decoration-color: $black;
-    }
-
-    @media (max-width: $breakpoint-large) {
-        .join-button { font-size: 20px; }
-    }
-
-    @media (max-width: $breakpoint-medium) {
-        .join-button { padding: 5px; }
-    }
-
-    .upcoming-event {
-        z-index: 9;
-        position: relative;
-        margin: 20px;
-        margin-left: 60px;
-        margin-top: 5%;
-        padding: 10px;
-        background-color: $white;
-        width: fit-content;
-        text-align: center;
-        color: $black;
-        .upcoming-event-title {
-            width: 100%;
+        .join-button {
+            box-shadow: 10px;
             cursor: pointer;
             font-family: $title-font;
             font-size: 40px;
             line-height: 40px;
             color: $black;
-            background-color: $blue-light;
+            width: fit-content;
+            background-color: $accent;
             padding: 20px;
             text-align: center;
             z-index: 9;
             position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
-        .event-date {
-            font-size: 20px;
+    
+        a {
+            text-decoration-color: $black;
+        }
+    
+        @media (max-width: $breakpoint-large) {
+            .join-button { font-size: 20px; }
+        }
+    
+        @media (max-width: $breakpoint-medium) {
+            .join-button { padding: 5px; }
         }
     }
-
-    @media (max-width: $breakpoint-large) {
+    
+    .upcoming-event-link {
+        margin: 20px;
+        margin-left: 60px;
+        display: inline-block;
         .upcoming-event {
-            .upcoming-event-title { font-size: 25px; padding: 5px; }
-            .event-title { font-size: 20px; }
-            .event-date { font-size: 15px; }
+            z-index: 9;
+            position: relative;
+            margin-top: 5%;
+            padding: 10px;
+            background-color: $white;
+            width: fit-content;
+            text-align: center;
+            color: $black;
+            .upcoming-event-title {
+                width: 100%;
+                cursor: pointer;
+                font-family: $title-font;
+                font-size: 40px;
+                line-height: 40px;
+                color: $black;
+                background-color: $blue-light;
+                padding: 20px;
+                text-align: center;
+                z-index: 9;
+                position: relative;
+            }
+            .event-date {
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: $breakpoint-large) {
+            .upcoming-event {
+                .upcoming-event-title { font-size: 25px; padding: 5px; }
+                .event-title { font-size: 20px; }
+                .event-date { font-size: 15px; }
+            }
         }
     }
-
 }
