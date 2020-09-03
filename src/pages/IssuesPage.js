@@ -59,7 +59,7 @@ class IssuesPage extends Component {
                 <BlockBackground/>
                 <div className="main">
                     <h1 className="title">
-                        Policies You Can Believe In; Read Our Platform
+                        A Platform That Demands Justice For All
                     </h1>
                     <Row className="content">
                         <Col sm={3} className="sidebar">
@@ -79,6 +79,7 @@ class IssuesPage extends Component {
                         </Col>
                     </Row>
                 </div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             </div>
         )
     }

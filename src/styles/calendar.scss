@@ -1,23 +1,38 @@
-.calendar-main {
-    width: 50%;
-    margin: auto;
-    height: 700px;
-    background-color: $white;
-    padding: 10px;
-
-    .rbc-toolbar-label {
-        font-family: $title-font;
-        font-size: 30px;
-    }
-
-    button {
-        border-radius: 0 !important;
-    }
-}
-
-@media (max-width: $breakpoint-medium) {
+.calendar-page {
     .calendar-main {
-        width: 100%;
+        width: 50%;
+        margin: auto;
         height: 700px;
+        background-color: $white;
+        padding: 10px;
+    
+        .rbc-toolbar-label {
+            font-family: $title-font;
+            font-size: 30px;
+        }
+    
+        button {
+            border-radius: 0 !important;
+        }
     }
+    
+    @media (max-width: $breakpoint-medium) {
+        .calendar-main {
+            width: 100%;
+            height: 700px;
+        }
+    }
+
+    h2 {
+        font-family: $title-font;
+        background-color: $blue-darkest;
+        padding: 15px;
+        color: $white;
+        width: fit-content;
+        margin-left: 25%;
+        margin-bottom: 10px;
+    }
+
 }
+
+

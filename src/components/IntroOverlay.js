@@ -6,10 +6,9 @@ class IntroOverlay extends Component {
     componentDidMount() {
         gsap.to("body", 0, { css: { visibility: 'visible' } });
         const timeline = gsap.timeline();
-        document.body.style.overflow = "auto";
-        window.scrollTo(document.getElementById("page-top"));
+        
         timeline
-        // .set(document.body, {overflow: "hidden"})
+        .set(document.body, {overflow: "hidden"})
         .from(".homepage .quote .line span", 2, {
         y: 80,
         ease: 'power4.out',
@@ -21,8 +20,7 @@ class IntroOverlay extends Component {
         opacity: 0,
         ease: 'linear'
         })
-        // .set(document.body, {overflow: "auto"});
-
+        .set(document.body, {overflow: "auto"});
     }
 
     render() {

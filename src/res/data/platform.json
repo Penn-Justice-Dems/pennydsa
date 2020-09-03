@@ -3,7 +3,7 @@
         {
             "title": "The Threat of Climate Change",
             "summary_title": "Climate",
-            "icon": "shopping.png",
+            "icon": "ecosystem.png",
             "content": [
                 "We believe in a Green New Deal that comprehensively responds to the threat of climate change. The climate emergency necessitates a just, intersectional approach to our environment. Decarbonization should include justice for communities of color, smooth transitions for fossil fuel workers, and new jobs that come with a living wage."
             ]
@@ -11,7 +11,7 @@
         {
             "title": "Comprehensive High-Quality Health Care",
             "summary_title": "Healthcare",
-            "icon": "shopping.png",
+            "icon": "hospital.png",
             "content": [
                 "We believe in guaranteed, comprehensive high-quality healthcare that is free at the point of service for every single person in this country--just as it is in virtually every other modern industrialized nation on Earth. We do not believe in “access” to “affordable” healthcare---these are deceptive rhetorical framings often used by corrupt politicians who are trying to appease their bloodsucking, for-profit health insurance donors. "
             ]
@@ -19,7 +19,7 @@
         {
             "title": "Housing For All",
             "summary_title": "Housing",
-            "icon": "shopping.png",
+            "icon": "house.png",
             "content": [
                 "Housing costs continue to rise, pushing more and more working class people under the poverty line. We support Penn professor Daniel Aldana Cohen’s Green New Deal for Public Housing plan, as endorsed by Congresswoman Alexandria Ocasio-Cortez. In ten years, we can help curb the climate crisis by building 10 million new, public and carbon-free homes, including in Philadelphia. ","In terms of potential deaths and the impact on our economy, the crisis we face from coronavirus is on the scale of a major war, and we must act accordingly. We must begin thinking on a scale comparable to the threat, and make sure that we are protecting working people, low-income people, and the most vulnerable communities, not just giant corporations and Wall Street.",
                 "Amid the COVID-19 pandemic, we also support a moratorium on all housing evictions.",
@@ -29,7 +29,7 @@
         {
             "title": "Education",
             "summary_title": "Education",
-            "icon": "shopping.png",
+            "icon": "book.png",
             "content": [
                 "Wall Street transaction tax to cancel all student debt and guarantee tuition-free public colleges and universities.",
                 "Implement a similar system to that of the Finnish model, effectively banning the existence of private school education in favor of a more equitable society."
@@ -38,7 +38,7 @@
         {
             "title": "Criminal Justice",
             "summary_title": "Criminal Justice",
-            "icon": "shopping.png",
+            "icon": "law.png",
             "content": [
                 "The U.S. criminal justice system is biased against poor communities of color and has more prisoners than anywhere else in the world. We believe in restorative justice and reallocating criminal justice funding towards community expenditures, such as education, housing, and health care."
             ]
@@ -48,7 +48,7 @@
         {
             "title": "Payment in Lieu of Taxes (PILOTs)",
             "summary_title": "PILOTs",
-            "icon": "shopping.png",
+            "icon": "pilot.png",
             "content": [
                 "Penn is the 7th wealthiest university in the country, yet pays no property taxes to support the communities and schools of Philadelphia. We demand that Penn participate in PILOTS (Payment in Lieu of Taxes), voluntary contributions to the city in lieu of property taxes.",
                 "Penn is one of only two Ivy League schools who still refuse to participate in PILOTS, even though it prides itself on civic and community engagement."
@@ -57,7 +57,7 @@
         {
             "title": "Defunding Philadelphia Police",
             "summary_title": "Defunding Police",
-            "icon": "shopping.png",
+            "icon": "police.png",
             "content": [
                 "We support Police Free Penn’s petition, which includes the demands to cut ties with the Philadelphia Police Department, defund and demilitarize Penn’s Police Department, and reinvest resources toward creating a campus of peace and support for POCs, both students and Philadelphia residents."
             ]
@@ -65,17 +65,9 @@
         {
             "title": "Fossil Free Penn",
             "summary_title": "Fossil Fuels",
-            "icon": "shopping.png",
+            "icon": "fossil.png",
             "content": [
                 " We support Fossil Free Penn in its demands that Penn divest its endowment from the top 200 fossil fuel companies and reinvest funds in clean energy companies/projects, and the Philadelphia community."
-            ]
-        },
-        {
-            "title": "SEIU32B",
-            "summary_title": "SEIU32B",
-            "icon": "shopping.png",
-            "content": [
-                
             ]
         }
     ]

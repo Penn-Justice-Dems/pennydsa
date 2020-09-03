@@ -61,13 +61,13 @@ class HomePage extends Component {
                     <div className="image_section">
                         <div className="images">
                             <CrossfadeImage
-                                duration={500}
+                                duration={1500}
                                 src={images(`./${this.state.currentImage}.jpg`)}/>
                         </div>
                         <div className="quote">
                             <h2>
                                 <div className="line">
-                                    <span>A THREAT TO <b>JUSTICE</b> ANYWHERE</span>
+                                    <span><b>INJUSTICE</b> ANYWHERE</span>
                                 </div>
                                 <div className="line">
                                     <span>IS A THREAT TO <b>JUSTICE</b> EVERYWHERE</span>
@@ -156,7 +156,6 @@ class HomePage extends Component {
                                         />
                                 </Col>
                             </Row>
-                            
                         </div>
                     </div>
                 </div>

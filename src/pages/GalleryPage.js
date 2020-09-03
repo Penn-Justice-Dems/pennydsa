@@ -13,14 +13,16 @@ class GalleryPage extends Component {
             });
         };
         return (
-            <div style={{position: "relative", width: "70%", margin: "auto"}}>
+            <div className="gallery-page">
+                <h2 className="title">Photo Gallery</h2>
                 <BlockBackground/>
-                <Gallery images={photos}/>
+                <Gallery
+                    className="photo-grid"
+                    images={photos}
+                    margin={5}/>
             </div>
-            
         )
     }
 }
-
 
 export default GalleryPage;

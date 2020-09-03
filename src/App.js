@@ -15,10 +15,8 @@ import CalendarPage from './pages/CalendarPage';
 class App extends Component {
 
     render() {
-        
         return (
             <>
-                <div id="page-top"></div>
                 <BrowserRouter>
                     <Switch><Route exact path="/"><IntroOverlay/></Route></Switch>
                     <Header/>

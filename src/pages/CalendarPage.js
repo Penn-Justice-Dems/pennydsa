@@ -67,8 +67,9 @@ class CalendarPage extends Component {
 
     render() {
         return (
-            <>
+            <div className="calendar-page">
                 <BlockBackground/>
+                <h2>Events Calendar</h2>
                 <div className="calendar-main">
                     <Calendar
                         localizer={localizer}
@@ -80,7 +81,7 @@ class CalendarPage extends Component {
                     />
                 </div>
                 { this.renderPopup() }
-            </>
+            </div>
         )
     }
 }

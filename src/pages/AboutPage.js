@@ -42,6 +42,8 @@ class AboutPage extends Component {
                                 Formerly known as Penn Students for Bernie, Penn Justice Democrats serves as an independent progressive student group with the mission of electing left-wing candidates at the local, state, and national level, as well as serving to promote progressive causes on campus and in Philadelphia. We were inspired by the <a href="https://justicedemocrats.com/" target="_blank" rel="noopener noreferrer">National Justice Democrats</a> organization in their extraordinary success at recruiting the leaders of the next generation of politics--leaders like Alexandria Ocasio-Cortez and Jamaal Bowman, and leaders who are committed to a platform of Medicare for All, Housing for All, College for All, and Justice for All.
                                 <br/> <br/>
                                 Possible activities this semester include: phonebanking, bi-monthly meetings, debate watch parties, panel events with notable activists and political leaders, movie nights, happy hours, and more. Under normal circumstances, our events would also potentially include campaign canvassing (including traveling to different states!), large scale protests, and BYO's, among other projects and activities. 
+                                <br/><br/>
+                                Reach out to us at <b>pennjusticedems@gmail.com</b>.
                             </p>
                         </Col>
                         <Col>
