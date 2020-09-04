@@ -5,7 +5,7 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import InstagramEmbed from 'react-instagram-embed';
 import 'react-calendar/dist/Calendar.css';
 import BlockBackground from '../components/BlockBackground';
-import { loadCalendarEvents } from '../util/common';
+import { loadCalendarEventsFromNow } from '../util/common';
 import newsItems from '../res/data/news.json';
 import NewsItem from '../components/NewsItem';
 import { Spinner, Row, Col } from 'react-bootstrap';
@@ -41,7 +41,7 @@ class HomePage extends Component {
     }
 
     async loadNextEvent() {
-        const events = await loadCalendarEvents();
+        const events = await loadCalendarEventsFromNow();
         this.setState({ event: events[0] });
     }
 
