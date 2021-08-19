@@ -6,7 +6,7 @@
     },
     {
         "name": "Jack Cahill",
-        "position": "Communications Co-Chair",
+        "position": "Communications Chair",
         "image": "Jack.jpg"
     },
     {
@@ -16,27 +16,33 @@
     },
     {
         "name": "Marissa Ephron",
-        "position": "Organizing Co-Chair",
+        "position": "Organizing Chair",
         "image": "marissa.jpg"
     },
     {
-        "name": "Graham Johnson",
+        "name": "Ben Moss-Horwitz",
         "position": "Social Chair",
-        "image": "Graham.jpg"
+        "image": "Ben.jpg"
     },
     {
-        "name": "Emily Liu",
-        "position": "Organizing Co-Chair",
-        "image": "emily.jpg"
+        "name": "Nico Melton",
+        "position": "Finance Chair",
+        "image": "Nico.jpg"
     },
     {
         "name": "Mayyi Mahama",
-        "position": "Communications Co-Chair",
+        "position": "Creative Chair",
         "image": "mayyi.png"
     },
     {
         "name": "Tara Panah",
         "position": "Outreach Chair",
         "image": "tara.jpg"
+    },
+    {
+        "name": "Matthew Liu",
+        "position": "Media Chair",
+        "image": "Matt.png"
     }
+     
 ]
