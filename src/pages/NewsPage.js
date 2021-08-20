@@ -36,7 +36,7 @@ const NewsPage = () => {
                 {
                     newsItems.map((item, index) => {
                         return <div id={`news-item-${index}`} key={index}> <NewsItem item={item}/> </div>
-                    }).reverse()
+                    })
                 }
             </div>
         </div>
