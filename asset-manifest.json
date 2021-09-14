@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.39d5841d.chunk.css",
-    "main.js": "/static/js/main.3d604113.chunk.js",
-    "main.js.map": "/static/js/main.3d604113.chunk.js.map",
+    "main.css": "/static/css/main.05562661.chunk.css",
+    "main.js": "/static/js/main.2552ed13.chunk.js",
+    "main.js.map": "/static/js/main.2552ed13.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2746d478.js",
     "runtime-main.js.map": "/static/js/runtime-main.2746d478.js.map",
     "static/css/2.3616012e.chunk.css": "/static/css/2.3616012e.chunk.css",
-    "static/js/2.a68bb947.chunk.js": "/static/js/2.a68bb947.chunk.js",
-    "static/js/2.a68bb947.chunk.js.map": "/static/js/2.a68bb947.chunk.js.map",
+    "static/js/2.95484202.chunk.js": "/static/js/2.95484202.chunk.js",
+    "static/js/2.95484202.chunk.js.map": "/static/js/2.95484202.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1ebb5d7d12af15dd236aff893cafad20.js": "/precache-manifest.1ebb5d7d12af15dd236aff893cafad20.js",
+    "precache-manifest.a146b4366751f7fa49e07b86d6bd0b37.js": "/precache-manifest.a146b4366751f7fa49e07b86d6bd0b37.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3616012e.chunk.css.map": "/static/css/2.3616012e.chunk.css.map",
-    "static/css/main.39d5841d.chunk.css.map": "/static/css/main.39d5841d.chunk.css.map",
-    "static/js/2.a68bb947.chunk.js.LICENSE.txt": "/static/js/2.a68bb947.chunk.js.LICENSE.txt",
+    "static/css/main.05562661.chunk.css.map": "/static/css/main.05562661.chunk.css.map",
+    "static/js/2.95484202.chunk.js.LICENSE.txt": "/static/js/2.95484202.chunk.js.LICENSE.txt",
     "static/media/0.jpg": "/static/media/0.5be912ce.jpg",
     "static/media/1.jpg": "/static/media/1.9d1c21c5.jpg",
     "static/media/10.jpg": "/static/media/10.5e78fff7.jpg",
@@ -68,14 +68,14 @@
     "static/media/pjd_logo.png": "/static/media/pjd_logo.433392e9.png",
     "static/media/police.png": "/static/media/police.7c04fd1e.png",
     "static/media/shopping.png": "/static/media/shopping.4b43e3e0.png",
-    "static/media/tara.jpg": "/static/media/tara.725eab47.jpg",
+    "static/media/tara.jpg": "/static/media/tara.123effc6.jpg",
     "static/media/twitter_icon.png": "/static/media/twitter_icon.1c439905.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2746d478.js",
     "static/css/2.3616012e.chunk.css",
-    "static/js/2.a68bb947.chunk.js",
-    "static/css/main.39d5841d.chunk.css",
-    "static/js/main.3d604113.chunk.js"
+    "static/js/2.95484202.chunk.js",
+    "static/css/main.05562661.chunk.css",
+    "static/js/main.2552ed13.chunk.js"
   ]
 }

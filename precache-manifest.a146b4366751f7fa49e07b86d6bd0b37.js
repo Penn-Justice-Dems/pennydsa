@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92d56a12b08c6cfa1a95b9f526e714b8",
+    "revision": "895214074c4a0d67f7c988e7300b4982",
     "url": "/index.html"
   },
   {
-    "revision": "e8236cb5c5aea9984c94",
+    "revision": "83df2391f55b2267012c",
     "url": "/static/css/2.3616012e.chunk.css"
   },
   {
-    "revision": "4374082db757f97d2755",
-    "url": "/static/css/main.39d5841d.chunk.css"
+    "revision": "4a3a8cea2aa37b19002e",
+    "url": "/static/css/main.05562661.chunk.css"
   },
   {
-    "revision": "e8236cb5c5aea9984c94",
-    "url": "/static/js/2.a68bb947.chunk.js"
+    "revision": "83df2391f55b2267012c",
+    "url": "/static/js/2.95484202.chunk.js"
   },
   {
     "revision": "b554d61e75a8c94b32945aeaf9c7b158",
-    "url": "/static/js/2.a68bb947.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.95484202.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4374082db757f97d2755",
-    "url": "/static/js/main.3d604113.chunk.js"
+    "revision": "4a3a8cea2aa37b19002e",
+    "url": "/static/js/main.2552ed13.chunk.js"
   },
   {
     "revision": "05f69594bdbf2741e2f4",
@@ -292,8 +292,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/shopping.4b43e3e0.png"
   },
   {
-    "revision": "725eab47cec1ef641f402e1712570725",
-    "url": "/static/media/tara.725eab47.jpg"
+    "revision": "123effc6ee4434f2f67d14198e501d01",
+    "url": "/static/media/tara.123effc6.jpg"
   },
   {
     "revision": "1c439905efb9606aafe05e100ae444a9",
