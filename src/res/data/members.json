@@ -1,46 +1,55 @@
 [
     {
         "name": "Jacob Brown",
+        "pronouns": "He/Him",
         "position": "Internal Affairs Chair",
         "image": "jacob.jpg"
     },
     {
         "name": "Jack Cahill",
+        "pronouns": "He/Him",
         "position": "Communications Chair",
         "image": "Jack.jpg"
     },
     {
         "name": "Amira Chowdhury",
+        "pronouns": "She/Her",
         "position": "Partnerships Chair",
         "image": "Amira.JPG"
     },
     {
         "name": "Marissa Ephron",
+        "pronouns": "She/Her",
         "position": "Organizing Chair",
         "image": "marissa.jpg"
     },
     {
         "name": "Ben Moss-Horwitz",
+        "pronouns": "He/Him",
         "position": "Social Chair",
         "image": "Ben.jpg"
     },
     {
         "name": "Nico Melton",
+        "pronouns": "He/Him, They/Them",
         "position": "Finance Chair",
         "image": "Nico's Headshot.jpg"
     },
     {
         "name": "Mayyi Mahama",
+        "pronouns": "She/Her",
         "position": "Creative Chair",
         "image": "mayyi.png"
     },
     {
         "name": "Tara Panah",
+        "pronouns": "She/Her",
         "position": "Outreach Chair",
         "image": "tara.jpg"
     },
     {
         "name": "Matthew Liu",
+        "pronouns": "He/Him",
         "position": "Media Chair",
         "image": "Matt.png"
     }
