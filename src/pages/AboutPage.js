@@ -30,20 +30,20 @@ class AboutPage extends Component {
                     <Row>
                         <Col lg={6}>
                             <div className="title">
-                                Mission
-                            </div>
-                            <p className="mission-text">
-                                We offer left wing progressives a place on Penn’s campus to engage in both electoral and non-electoral organizing, outreach and activism -- divorced from the primary pursuit of corporate pre-professionalism. 
-                            </p>
-                            <div className="title">
                                 About Us
                             </div>
                             <p className="mission-text">
-                                Penn Justice Democrats serves as an independent progressive student group with the mission of electing left-wing candidates at the local, state, and national level, as well as serving to promote progressive causes on campus and in Philadelphia. We were inspired by the <a href="https://justicedemocrats.com/" target="_blank" rel="noopener noreferrer">National Justice Democrats</a> organization in their extraordinary success at recruiting the leaders of the next generation of politics--leaders like Alexandria Ocasio-Cortez and Jamaal Bowman, and leaders who are committed to a platform of Medicare for All, Housing for All, College for All, and Justice for All.
+                                Formerly known as <b>Penn Students for Bernie</b>, Penn Justice Democrats serves as an independent left-wing student group with the mission of electing leftist candidates at the local, state, and national level, as well as serving to promote progressive/leftist causes on campus and in Philadelphia. Though we are not affiliated with the National <a href="https://justicedemocrats.com/" target="_blank" rel="noopener noreferrer">Justice Democrats</a> organization, we were inspired by their success at recruiting and electing progressive leaders whom we hope will be committed to fighting for Medicare for All, Housing for All, College for All, Justice for All, and many other leftist policies.
                                 <br/> <br/>
-                                Possible activities this semester include: phonebanking, bi-monthly meetings, debate watch parties, panel events with notable activists and political leaders, movie nights, happy hours, and more. Under normal circumstances, our events would also potentially include campaign canvassing (including traveling to different states!), large scale protests, and BYO's, among other projects and activities. 
+                                <b>Activities and Mission</b>
+                                <br/> <br/>
+                                Penn Justice Democrats stands for <b>social, racial, economic, and environmental justice</b>, and we support policies, campaigns, candidates, and initiatives which will bring us closer to our goal of creating a more just world. Thus, we are fighting for justice not only nationally but also at Penn, in the Philadelphia community, and across the globe. We offer leftists/progressives a place to engage in both electoral and non-electoral organizing, outreach, and activism, divorced from the pursuit of corporate pre-professionalism that is ubiquitous on Penn's campus. Possible activities this semester include phone banking, canvassing, protests, political discussions, monthly meetings, speaker events with notable activists and political leaders, and plenty of social events. We welcome everyone on the left-wing spectrum, including those who prefer to organize for change outside of electoralism. 
                                 <br/><br/>
-                                Reach out to us at <b>pennjusticedems@gmail.com</b>.
+                                <b>Club Structure</b>
+                                <br/><br/>
+                                We do not have a club President or Executive Director(s). Instead, our Executive Board consists of eight members who have their own respective responsibilities in Outreach, Communications, Creative Design, Finance, Media, Internal Affairs, Organizing, and Social Events. Members not on the Executive Board are <b>highly encouraged</b> to apply for a leadership position on our Content (social media, newsletter, creative design, etc.) or Engagement (event logistics, club retention, local and national outreach, etc.) teams. <b>The acceptance rate is 100% for these positions.</b>
+                                <br/><br/>
+                                If you want to learn more about us, please fill out the form to join our listserv or reach out to us at <b>pennjusticedems@gmail.com</b>.
                             </p>
                         </Col>
                         <Col>
