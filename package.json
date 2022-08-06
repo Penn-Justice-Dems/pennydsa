@@ -1,7 +1,7 @@
 {
-  "name": "pjd",
+  "name": "pennydsa",
   "version": "0.1.0",
-  "homepage": "https://pennjusticedems.org",
+  "homepage": "https://pennydsa.org",
   "private": true,
   "dependencies": {
     "@google-cloud/precise-date": "^2.0.3",
