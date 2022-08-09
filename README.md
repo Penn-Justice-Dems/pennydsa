@@ -1,1 +1,1 @@
-Official website of the Penn Justice Democrats.
+Official website of the Penn YDSA.
