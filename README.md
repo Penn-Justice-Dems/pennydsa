@@ -1,1 +1,1 @@
-Official website of the Penn YDSA.
+Official website of Penn YDSA.
